@@ -1,0 +1,9 @@
+package br.trainee.aline.banco2;
+
+public class ContaCorrente extends Conta {
+
+   public void atualiza(double taxa) {
+         super.atualiza(taxa * 2);
+	}
+
+}
